@@ -10,7 +10,7 @@ Region	Mumbai (ap-south-1)
 
 Completed	25 October 2026
 
-Full report	: file:///C:/Users/Admin/Downloads/Yasir_Sharief_Qurashi_EWB_VPC_Peering%20report.pdf
+Full report	: Yasir_Sharief_Qurashi_EWB_VPC_Peering report.pdf
 
 ---
 
