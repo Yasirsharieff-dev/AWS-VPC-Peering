@@ -15,8 +15,8 @@ Full report
 ---
 
 ## Architecture
+ewb_vpc_peering_architecture.png
 
-![Architecture diagram](architecture.png)
 
 - **Administration path:** laptop, then bastion, then App-A or App-B (SSH ProxyJump).
 - **Application traffic:** App-A and App-B talk over private IPs through the peering connection.
