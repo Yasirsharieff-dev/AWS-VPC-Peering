@@ -1,12 +1,15 @@
- AWS-VPC-Peering
+# AWS VPC Peering Project
 
 Connect two VPCs. Prove private connectivity.
 
 A hands-on AWS networking lab. Two isolated VPCs are joined with a VPC peering connection so that two private EC2 servers can talk to each other over their private IPv4 addresses. A single public bastion host is the only way in: I administer both private servers through SSH ProxyJump, and the private key never leaves my laptop.
 
 Student	: Yasir sharief Qurashi
+
 Region	Mumbai (ap-south-1)
+
 Completed	25 October 2026
+
 Full report	
 
 ---
