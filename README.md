@@ -15,7 +15,8 @@ Full report	: Yasir_Sharief_Qurashi_EWB_VPC_Peering report.pdf
 ---
 
 ## Architecture
-ewb_vpc_peering_architecture.png
+<img width="2800" height="2020" alt="ewb_vpc_peering_architecture" src="https://github.com/user-attachments/assets/196bd949-96b7-4431-8798-dd3cdcf5065b" />
+
 
 
 - **Administration path:** laptop, then bastion, then App-A or App-B (SSH ProxyJump).
