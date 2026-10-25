@@ -136,9 +136,9 @@ I ran these from Windows with the equivalent `ssh -i ... -o ProxyCommand=...` co
 
 | # | Test | Where / command | Expected | Result | Evidence |
 |---|---|---|---|---|---|
-| 01 | Baseline | App-A: `ping -c 4 10.20.1.10`, before peering | No replies | _add result_ | _add screenshot_ |
-| 02 | Forward path | App-A: `ping -c 4 10.20.1.10` | 4 replies, 0% loss | _add result_ | _add screenshot_ |
-| 03 | Reverse path | App-B: `ping -c 4 10.10.2.10` | 4 replies, 0% loss | _add result_ | _add screenshot_ |
+| 01 | Baseline | App-A: `ping -c 4 10.20.1.10`, before peering|
+| 02 | Forward path | App-A: `ping -c 4 10.20.1.10` | 4 replies, 0% loss |
+| 03 | Reverse path | App-B: `ping -c 4 10.10.2.10` | 4 replies, 0% loss | 
 | 04 | Private SSH | Laptop to App-B through the bastion | Shell on App-B | Shell opened on `ip-10-20-1-10` | [screenshot](screenshots/12_test04_ssh_app-b_via_bastion.png) |
 | 05 | Isolation | EC2 details of App-A and App-B | No public IPv4 | Public IPv4 empty on both | [App-A](screenshots/13_test05_isolation_app-a_no_public_ip.png), [App-B](screenshots/14_test05_isolation_app-b_no_public_ip.png) |
 
